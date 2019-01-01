@@ -47,8 +47,7 @@ if (message.content.startsWith(prefix + 'help')) {
     ✴ -contact => To Contact Owners Bot | مراسلة صاحب البوت
     ✴ -invite \ -inv => Invite Bot | لدعوة البوت
     ✴ -embed ===> To Embed | لتكرار اي شي كتبتو بطريقة حلوة
-    ✴ -avatar ==> Your Avatar | صورتك الشخصية
-    ✴ -support => Server Support | سيرفر الدعم الفني
+    ✴ -avatar ==> Your Avatar | صورتك الشخصية  
      ===========================================================
       React With ▶ To See Admins Commands`,
 	`=-=-=-=-=-= 🔧  Admin Commands - اوامر ادارية 🔧 =-=-=-=-=-=
@@ -403,7 +402,7 @@ client.on('guildCreate', guild => {
          const embed = new Discord.RichEmbed()
      .setColor("RED")
      .setTitle('Click Here To Add Bot .!')
-     .setURL('https://discordapp.com/oauth2/authorize?client_id=400489866573512705&permissions=8&scope=bot')
+     .setURL('https://discordapp.com/api/oauth2/authorize?client_id=526414921773088788&permissions=8&scope=bot')
   .setDescription(`**
   New Server Add Speed Bot ✅
 Server name: __${guild.name}__
@@ -417,7 +416,7 @@ client.on('guildDelete', guild => {
          const embed = new Discord.RichEmbed()
      .setColor("GOLD")
      .setTitle('Click Here To Add Bot .!')
-     .setURL('https://discordapp.com/oauth2/authorize?client_id=400489866573512705&permissions=8&scope=bot')
+     .setURL('https://discordapp.com/api/oauth2/authorize?client_id=526414921773088788&permissions=8&scope=bot')
   .setDescription(`**
    Server kicked Speed Bot :cry:
 Server name: __${guild.name}__
@@ -475,7 +474,7 @@ client.on('message', async msg => {
 			        .setDescription(`**الرجاء اختيار رقم المقطع** :
 ${videos.map(video2 => `[**${++index} **] \`${video2.title}\``).join('\n')}`)
 
-					.setFooter("Speed Bot")
+					.setFooter("Nirex Codes")
 					msg.channel.sendEmbed(embed1).then(message =>{message.delete(20000)})
 					
 					try {
