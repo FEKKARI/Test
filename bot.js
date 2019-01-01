@@ -418,7 +418,7 @@ client.on('guildDelete', guild => {
      .setTitle('Click Here To Add Bot .!')
      .setURL('https://discordapp.com/api/oauth2/authorize?client_id=526414921773088788&permissions=8&scope=bot')
   .setDescription(`**
-   Server kicked Speed Bot :cry:
+   Server kicked NirexCodes:cry:
 Server name: __${guild.name}__
 Server owner: __${guild.owner}__
 Server id: __${guild.id}__ 
