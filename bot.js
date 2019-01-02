@@ -402,7 +402,7 @@ client.on('guildCreate', guild => {
          const embed = new Discord.RichEmbed()
      .setColor("RED")
      .setTitle('Click Here To Add Bot .!')
-     .setURL('https://discordapp.com/api/oauth2/authorize?client_id=526414921773088788&permissions=8&scope=bot')
+     .setURL('https://discordapp.com/api/oauth2/authorize?client_id=526414921773088788&permissions=8&scope=bot ')
   .setDescription(`**
   New Server Add Speed Bot ✅
 Server name: __${guild.name}__
