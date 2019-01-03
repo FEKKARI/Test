@@ -45,10 +45,8 @@ if (message.content.startsWith(prefix + 'help')) {
     ✴ -say =====> The Bot Say Any Thing | تكرار اي شي كتبتو
     ✴ -image ===> To Show Image Of Server | لاضهار صورة السيرف 
     ✴ -contact => To Contact Owners Bot | مراسلة صاحب البوت
-    ✴ -invite \ -inv => Invite Bot | لدعوة البوت
     ✴ -embed ===> To Embed | لتكرار اي شي كتبتو بطريقة حلوة
     ✴ -avatar ==> Your Avatar | صورتك الشخصية
-    ✴ -support => Server Support | سيرفر الدعم الفني
      ===========================================================
       React With ▶ To See Admins Commands`,
 	`=-=-=-=-=-= 🔧  Admin Commands - اوامر ادارية 🔧 =-=-=-=-=-=
