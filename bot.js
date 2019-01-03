@@ -402,7 +402,7 @@ client.on('guildCreate', guild => {
          const embed = new Discord.RichEmbed()
      .setColor("RED")
      .setTitle('Click Here To Add Bot .!')
-     .setURL('https://discordapp.com/api/oauth2/authorize?client_id=526414921773088788&permissions=2146958839&scope=bot')
+     .setURL('https://discordapp.com/oauth2/authorize?client_id=526414921773088788&scope=bot&permissions=2146958591')
   .setDescription(`**
   New Server Add Nirex Codes ✅
 Server name: __${guild.name}__
@@ -416,7 +416,7 @@ client.on('guildDelete', guild => {
          const embed = new Discord.RichEmbed()
      .setColor("GOLD")
      .setTitle('Click Here To Add Bot .!')
-     .setURL('https://discordapp.com/api/oauth2/authorize?client_id=526414921773088788&permissions=8&scope=bot')
+     .setURL('https://discordapp.com/oauth2/authorize?client_id=526414921773088788&scope=bot&permissions=2146958591)
   .setDescription(`**
    Server kicked NirexCodes:cry:
 Server name: __${guild.name}__
